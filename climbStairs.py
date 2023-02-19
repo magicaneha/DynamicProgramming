@@ -4,6 +4,7 @@
 def climbingStair(n):
     one=1
     two=1
+    #using DP we will swap value and add one 
     for i in range(n-1):
         one,two=two,one+two
     return two
